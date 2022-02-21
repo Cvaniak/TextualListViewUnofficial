@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="ck-widgets-lv",
-    version="0.2",
+    version="0.3",
     description="Unofficial Textual List View for Widgets that supports scrolling. Short and dirty hack to use while waiting for official ListView.",
     long_description=long_description,
     long_description_content_type='text/markdown',
