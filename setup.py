@@ -6,15 +6,13 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="ck-widgets-lv",
-    version="0.3",
+    version="0.4",
     description="Unofficial Textual List View for Widgets that supports scrolling. Short and dirty hack to use while waiting for official ListView.",
     long_description=long_description,
     long_description_content_type='text/markdown',
     author="Cvaniak",
     author_email="igna.cwaniak@gmail.com",
-    # packages=["ck_widgets_lv"],
-    py_modules=['ck_widgets_lv'],
-    scripts=['ck_widgets_lv.py'],
+    packages=["ck_widgets_lv"],
     install_requires=["rich", "textual"],
     zip_safe=False,
 )
